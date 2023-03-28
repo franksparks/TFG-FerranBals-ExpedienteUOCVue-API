@@ -17,6 +17,7 @@ const aliceMarks = require("./data/aliceMarks.json");
 //Object with all Alice enrollment
 const aliceEnrollments = require("./data/aliceEnrollments.json");
 const minorEnrollments = require("./data/minorEnrollments.json");
+const bobEnrollments = require("./data/bobEnrollments.json");
 
 app.get("/", function (req, res) {
   response = {
@@ -73,6 +74,19 @@ app.route("/enrollments/alice").get(function (req, res) {
     code: 200,
     message: "Alice enrollments",
     data: aliceEnrollments,
+  };
+
+  res.header("Access-Control-Allow-Origin", "*");
+  res.send(response);
+});
+
+//Returns Bob enrollments
+app.route("/enrollments/bob").get(function (req, res) {
+  response = {
+    error: false,
+    code: 200,
+    message: "Bob enrollments",
+    data: bobEnrollments,
   };
 
   res.header("Access-Control-Allow-Origin", "*");
