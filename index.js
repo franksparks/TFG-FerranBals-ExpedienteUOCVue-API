@@ -7,14 +7,14 @@ const app = express();
 //Hardcoded documents references
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-const ferranFile = require("./data/ferran.json");
-const carlosFile = require("./data/carlos.json");
+const aliceFile = require("./data/alice.json");
+const bobFile = require("./data/bob.json");
 const minor = require("./data/minor.json");
 
-//Object with all Ferran grades
-const ferranMarks = require("./data/ferranMarks.json");
+//Object with all Alice grades
+const aliceMarks = require("./data/aliceMarks.json");
 
-//Object with all Ferran enrollment
+//Object with all Alice enrollment
 const enrollments = require("./data/enrollments.json");
 
 app.get("/", function (req, res) {
@@ -26,25 +26,25 @@ app.get("/", function (req, res) {
   res.send(response);
 });
 
-//Ferran File
-app.route("/file/ferran").get(function (req, res) {
+//Alice File
+app.route("/file/alice").get(function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "Ferran - File",
-    data: ferranFile,
+    message: "Alice - File",
+    data: aliceFile,
   };
 
   res.header("Access-Control-Allow-Origin", "*");
   res.send(response);
 });
 
-//Ferran - Minor File
+//Alice - Minor File
 app.route("/file/minor").get(function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "Ferran - Minor file",
+    message: "Alice - Minor file",
     data: minor,
   };
 
@@ -52,12 +52,12 @@ app.route("/file/minor").get(function (req, res) {
   res.send(response);
 });
 
-//Returns Ferran enrollments
+//Returns Alice enrollments
 app.route("/enrollments").get(function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "Ferran enrollments",
+    message: "Alice enrollments",
     data: enrollments,
   };
 
@@ -65,13 +65,13 @@ app.route("/enrollments").get(function (req, res) {
   res.send(response);
 });
 
-//Returns Ferran grades
+//Returns Alice grades
 app.route("/grades").get(function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "All Ferran grades",
-    data: ferranMarks,
+    message: "All alice grades",
+    data: aliceMarks,
   };
 
   res.header("Access-Control-Allow-Origin", "*");
@@ -89,7 +89,7 @@ app.route("/subject/").get(function (req, res) {
     return res.status(400).send(response);
   }
 
-  const subject = ferranMarks.find(
+  const subject = aliceMarks.find(
     (obj) => obj.O[0].P.codAsignatura === req.query.codAsignatura
   );
 
@@ -114,13 +114,13 @@ app.route("/subject/").get(function (req, res) {
   res.status(200).send(response);
 });
 
-//Carlos File
-app.route("/file/carlos").get(function (req, res) {
+//Bob File
+app.route("/file/bob").get(function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "Carlos - File",
-    data: carlosFile,
+    message: "Bob - File",
+    data: bobFile,
   };
 
   res.header("Access-Control-Allow-Origin", "*");
