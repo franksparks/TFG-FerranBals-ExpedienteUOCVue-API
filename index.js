@@ -78,6 +78,42 @@ app.route("/grades").get(function (req, res) {
   res.send(response);
 });
 
+//Return the convos of a particular subject
+app.route("/subject/").get(function (req, res) {
+  if (!req.query.codAsignatura) {
+    const response = {
+      error: true,
+      code: 400,
+      message: "Please specify a subject",
+    };
+    return res.status(400).send(response);
+  }
+
+  const subject = ferranMarks.find(
+    (obj) => obj.O[0].P.codAsignatura === req.query.codAsignatura
+  );
+
+  if (!subject) {
+    const response = {
+      error: true,
+      code: 404,
+      message: "Subject not found",
+    };
+    return res.status(404).send(response);
+  }
+
+  const subjectConvos = subject.O.map((item) => item.P);
+
+  const response = {
+    error: false,
+    code: 200,
+    message: "Information of the convos of a student of a particular subject",
+    asignatura: subjectConvos,
+  };
+  res.header("Access-Control-Allow-Origin", "*");
+  res.status(200).send(response);
+});
+
 //Carlos File
 app.route("/file/carlos").get(function (req, res) {
   response = {
