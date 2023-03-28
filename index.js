@@ -55,19 +55,6 @@ app.route("/file/minor").get(function (req, res) {
 });
 
 //Returns Alice enrollments
-app.route("/enrollments").get(function (req, res) {
-  response = {
-    error: false,
-    code: 200,
-    message: "Alice enrollments",
-    data: aliceEnrollments,
-  };
-
-  res.header("Access-Control-Allow-Origin", "*");
-  res.send(response);
-});
-
-//Returns Alice enrollments
 app.route("/enrollments/alice").get(function (req, res) {
   response = {
     error: false,
