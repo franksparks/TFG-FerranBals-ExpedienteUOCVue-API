@@ -1,0 +1,1071 @@
+[
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.4,
+          "codAsignatura": "75.588",
+          "numCalifFC": 8.4,
+          "numCalifC": 10,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Josep Antoni Mira Palacios",
+          "codCalifFC": "B",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20221",
+          "descAnyAcademico": "2022/23-1",
+          "numCalifP": 7.7,
+          "descAsignatura": "Proyecto de desarrollo del software",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "A",
+          "idpConsultor": "459571",
+          "anySuperacion": "2022/23-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.8,
+          "codAsignatura": "75.589",
+          "numCalifFC": 7.8,
+          "numCalifC": 6.5,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Albert Gutiérrez",
+          "codCalifFC": "B",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20212",
+          "descAnyAcademico": "2021/22-2",
+          "numCalifP": 9,
+          "descAsignatura": "Sistemas distribuidos",
+          "codCalifP": "A",
+          "codCalifFA": "NO",
+          "codCalifC": "C+",
+          "idpConsultor": "968935",
+          "anySuperacion": "2021/22-2",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.2,
+          "codAsignatura": "75.590",
+          "numCalifFC": 7.6,
+          "numCalifC": 8,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Luciano Wehrli",
+          "codCalifFC": "B",
+          "codCalifPS": "A",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20192",
+          "descAnyAcademico": "2019/20-2",
+          "numCalifP": 7.3,
+          "descAsignatura": "Interacción persona ordenador",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 9.5,
+          "idpConsultor": "1026040",
+          "anySuperacion": "2019/20-2",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.7,
+          "codAsignatura": "75.593",
+          "numCalifC": 7.7,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Marcos Fernandez Ciruela",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20201",
+          "descAnyAcademico": "2020/21-1",
+          "descAsignatura": "Ingeniería de requisitos",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "989878",
+          "anySuperacion": "2020/21-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.4,
+          "codAsignatura": "75.611",
+          "numCalifC": 8,
+          "numCalifEX": 8.4,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Gemma Simó Diego",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20192",
+          "descAnyAcademico": "2019/20-2",
+          "descAsignatura": "Fundamentos físicos de la informática",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "1030791",
+          "anySuperacion": "2019/20-2",
+          "codClaseCredit": "B",
+          "codCalifEX": "B",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 6.5,
+          "codAsignatura": "75.613",
+          "numCalifFC": 6.5,
+          "numCalifC": 7,
+          "descCalifFA": "Aprobado",
+          "nomConsultor": "Francisco Javaloy Guerrero",
+          "codCalifFC": "C+",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20211",
+          "descAnyAcademico": "2021/22-1",
+          "numCalifP": 6.1,
+          "descAsignatura": "Diseño de estructuras de datos",
+          "codCalifP": "C+",
+          "codCalifFA": "A",
+          "codCalifC": "B",
+          "idpConsultor": "1147799",
+          "anySuperacion": "2021/22-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "anyAcademico": "20222",
+          "codAsignatura": "75.616",
+          "descAnyAcademico": "2022/23-2",
+          "descAsignatura": "Trabajo de fin de grado",
+          "nomConsultor": "Gregorio Robles Martínez",
+          "idpConsultor": "434272",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 0,
+          "descClaseCredit": "Obligatoria"
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.5,
+          "codAsignatura": "75.587",
+          "numCalifFC": 7.5,
+          "numCalifC": 7.7,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Pablo Pineda Ruipérez",
+          "codCalifFC": "B",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20212",
+          "descAnyAcademico": "2021/22-2",
+          "numCalifP": 7.3,
+          "descAsignatura": "Ing. del software de componentes y sistemas distribuidos",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "1101123",
+          "anySuperacion": "2021/22-2",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.1,
+          "codAsignatura": "75.570",
+          "numCalifC": 8.6,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Laura López Oros",
+          "codCalifPS": "C-",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20171",
+          "descAnyAcademico": "2017/18-1",
+          "descAsignatura": "Lógica",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 3.5,
+          "idpConsultor": "416589",
+          "anySuperacion": "2017/18-1",
+          "codClaseCredit": "B",
+          "codCalifEX": "",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7,
+          "codAsignatura": "75.571",
+          "numCalifFC": 7,
+          "numCalifC": 6,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Narcís Vidal Tejedor",
+          "codCalifFC": "B",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20182",
+          "descAnyAcademico": "2018/19-2",
+          "numCalifP": 7.6,
+          "descAsignatura": "Gestión de proyectos",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "C+",
+          "idpConsultor": "741032",
+          "anySuperacion": "2018/19-2",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 6.3,
+          "codAsignatura": "75.568",
+          "numCalifC": 6.8,
+          "numCalifEX": 6,
+          "descCalifFA": "Aprobado",
+          "nomConsultor": "Jose Francisco Martinez Bosca",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20182",
+          "descAnyAcademico": "2018/19-2",
+          "descAsignatura": "Estadística",
+          "codCalifFA": "A",
+          "codCalifC": "C+",
+          "idpConsultor": "229158",
+          "anySuperacion": "2018/19-2",
+          "codClaseCredit": "B",
+          "codCalifEX": "C+",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 6.9,
+          "codAsignatura": "75.569",
+          "numCalifC": 6.9,
+          "descCalifFA": "Aprobado",
+          "nomConsultor": "Javier Segovia Aguas",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20201",
+          "descAnyAcademico": "2020/21-1",
+          "descAsignatura": "Grafos y complejidad",
+          "codCalifFA": "A",
+          "codCalifC": "C+",
+          "idpConsultor": "1098763",
+          "anySuperacion": "2020/21-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 9.1,
+          "codAsignatura": "75.575",
+          "numCalifFC": 9.1,
+          "numCalifC": 8.9,
+          "descCalifFA": "Sobresaliente",
+          "nomConsultor": "Alberto José Mateos Bartolomé",
+          "codCalifFC": "A",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20211",
+          "descAnyAcademico": "2021/22-1",
+          "numCalifP": 9.5,
+          "descAsignatura": "Administración de redes y sistemas operativos",
+          "codCalifP": "A",
+          "codCalifFA": "EX",
+          "codCalifC": "B",
+          "idpConsultor": "153975",
+          "anySuperacion": "2021/22-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.2,
+          "codAsignatura": "75.582",
+          "numCalifC": 8.7,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Gabriel Moyà Alcover",
+          "codCalifPS": "B",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20211",
+          "descAnyAcademico": "2021/22-1",
+          "descAsignatura": "Inteligencia artificial",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 7.5,
+          "idpConsultor": "1027631",
+          "anySuperacion": "2021/22-1",
+          "codClaseCredit": "O",
+          "codCalifEX": "",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 10,
+          "codAsignatura": "75.572",
+          "numCalifFC": 10,
+          "numCalifC": 10,
+          "descCalifFA": "Sobresaliente",
+          "nomConsultor": "Silvia Llorente Viejo",
+          "codCalifFC": "A",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20211",
+          "descAnyAcademico": "2021/22-1",
+          "numCalifP": 10,
+          "descAsignatura": "Redes y aplicaciones Internet",
+          "codCalifP": "A",
+          "codCalifFA": "EX",
+          "codCalifC": "A",
+          "idpConsultor": "416819",
+          "anySuperacion": "2021/22-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.3,
+          "codAsignatura": "75.573",
+          "numCalifEX": 8.7,
+          "numCalifC": 9,
+          "numCalifFE": 7.9,
+          "descCalifFA": "Notable",
+          "codCalifFE": "B",
+          "nomConsultor": "Juan Carlos Moure López",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20201",
+          "descAnyAcademico": "2020/21-1",
+          "numCalifP": 7,
+          "descAsignatura": "Estructura de computadores",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "A",
+          "idpConsultor": "365844",
+          "anySuperacion": "2020/21-1",
+          "codClaseCredit": "O",
+          "codCalifEX": "B",
+          "numConvocatoriaActual": 2
+        },
+        "R": "2",
+        "Y": 3
+      },
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "codAsignatura": "75.573",
+          "numCalifC": 8,
+          "descCalifFA": "No presentado",
+          "codCalifFE": "N",
+          "nomConsultor": "Miguel Angel Carpintero Rodríguez",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20172",
+          "descAnyAcademico": "2017/18-2",
+          "descAsignatura": "Estructura de computadores",
+          "codCalifP": "N",
+          "codCalifFA": "NP",
+          "codCalifC": "B",
+          "idpConsultor": "395497",
+          "codClaseCredit": "O",
+          "codCalifEX": "N",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 2
+      },
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 2,
+          "codAsignatura": "75.573",
+          "numCalifC": 7,
+          "numCalifFE": 3,
+          "descCalifFA": "Suspendido",
+          "codCalifFE": "C-",
+          "nomConsultor": "Tomàs Manuel Margalef Burrull",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20171",
+          "descAnyAcademico": "2017/18-1",
+          "numCalifP": 3,
+          "descAsignatura": "Estructura de computadores",
+          "codCalifP": "C-",
+          "codCalifFA": "SU",
+          "codCalifC": "B",
+          "idpConsultor": "421433",
+          "codClaseCredit": "O",
+          "codCalifEX": "N",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [
+      [
+        { "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 },
+        { "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 2 },
+        { "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 3 }
+      ]
+    ]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.4,
+          "codAsignatura": "75.585",
+          "numCalifEX": 8.9,
+          "numCalifC": 8.5,
+          "numCalifFE": 8.3,
+          "descCalifFA": "Notable",
+          "codCalifFE": "B",
+          "nomConsultor": "Margarita Pascual Linde",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20202",
+          "descAnyAcademico": "2020/21-2",
+          "numCalifP": 7.7,
+          "descAsignatura": "Diseño de bases de datos",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "214630",
+          "anySuperacion": "2020/21-2",
+          "codClaseCredit": "O",
+          "codCalifEX": "B",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.1,
+          "codAsignatura": "75.586",
+          "numCalifEX": 7.8,
+          "numCalifC": 7,
+          "numCalifFE": 7.1,
+          "descCalifFA": "Notable",
+          "codCalifFE": "B",
+          "nomConsultor": "Carla Diví Cuesta",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20202",
+          "descAnyAcademico": "2020/21-2",
+          "numCalifP": 6.8,
+          "descAsignatura": "Análisis y diseño con patrones",
+          "codCalifP": "C+",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "1082474",
+          "anySuperacion": "2020/21-2",
+          "codClaseCredit": "O",
+          "codCalifEX": "B",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.7,
+          "codAsignatura": "75.566",
+          "numCalifEX": 8.7,
+          "numCalifC": 9.2,
+          "numCalifFE": 8.5,
+          "descCalifFA": "Notable",
+          "codCalifFE": "B",
+          "nomConsultor": "Sergi Carpio Ortega",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20202",
+          "descAnyAcademico": "2020/21-2",
+          "numCalifP": 8,
+          "descAsignatura": "Sistemas operativos",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "A",
+          "idpConsultor": "458609",
+          "anySuperacion": "2020/21-2",
+          "codClaseCredit": "O",
+          "codCalifEX": "B",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 6.2,
+          "codAsignatura": "75.565",
+          "numCalifEX": 4.3,
+          "numCalifC": 6.8,
+          "numCalifFE": 5.8,
+          "descCalifFA": "Aprobado",
+          "codCalifFE": "C+",
+          "nomConsultor": "Javier Escudero Sabadell",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20172",
+          "descAnyAcademico": "2017/18-2",
+          "numCalifP": 7.2,
+          "descAsignatura": "Ingeniería del software",
+          "codCalifP": "B",
+          "codCalifFA": "A",
+          "codCalifC": "C+",
+          "idpConsultor": "85000483",
+          "anySuperacion": "2017/18-2",
+          "codClaseCredit": "O",
+          "codCalifEX": "C-",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.5,
+          "codAsignatura": "75.567",
+          "numCalifEX": 7.7,
+          "numCalifC": 8.6,
+          "numCalifFE": 8.5,
+          "descCalifFA": "Notable",
+          "codCalifFE": "B",
+          "nomConsultor": "Xavier Bach-Esteve Burch",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20201",
+          "descAnyAcademico": "2020/21-1",
+          "numCalifP": 9.3,
+          "descAsignatura": "Uso de bases de datos",
+          "codCalifP": "A",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "372762",
+          "anySuperacion": "2020/21-1",
+          "codClaseCredit": "O",
+          "codCalifEX": "B",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 5.5,
+          "codAsignatura": "75.562",
+          "numCalifEX": 5.3,
+          "numCalifC": 7,
+          "numCalifFE": 4.7,
+          "descCalifFA": "Aprobado",
+          "codCalifFE": "C-",
+          "nomConsultor": "Antoni Josep Velasco González",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20162",
+          "descAnyAcademico": "2016/17-2",
+          "numCalifP": 4,
+          "descAsignatura": "Fundamentos de computadores",
+          "codCalifP": "C-",
+          "codCalifFA": "A",
+          "codCalifC": "B",
+          "idpConsultor": "199357",
+          "anySuperacion": "2016/17-2",
+          "codClaseCredit": "B",
+          "codCalifEX": "C+",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.6,
+          "codAsignatura": "75.564",
+          "numCalifC": 8.6,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Fran Máñez Sánchez",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20192",
+          "descAnyAcademico": "2019/20-2",
+          "descAsignatura": "Diseño y programación orientada a objetos",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "907205",
+          "anySuperacion": "2019/20-2",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 5.7,
+          "codAsignatura": "75.563",
+          "numCalifFC": 5.6,
+          "numCalifC": 5,
+          "descCalifFA": "Aprobado",
+          "codCalifFE": "",
+          "nomConsultor": "Cristina Marqués Ferrer",
+          "codCalifFC": "C+",
+          "codCalifPS": "C+",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20162",
+          "descAnyAcademico": "2016/17-2",
+          "numCalifP": 6,
+          "descAsignatura": "Competencia comunicativa para profesionales de las TIC",
+          "codCalifP": "C+",
+          "codCalifFA": "A",
+          "codCalifC": "C+",
+          "numCalifPS": 6,
+          "idpConsultor": "574171",
+          "anySuperacion": "2016/17-2",
+          "codClaseCredit": "O",
+          "codCalifEX": "",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8,
+          "codAsignatura": "75.558",
+          "numCalifC": 7.4,
+          "numCalifEX": 8,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Jordi Ripoll Missé",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20191",
+          "descAnyAcademico": "2019/20-1",
+          "descAsignatura": "Análisis matemático",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "672395",
+          "anySuperacion": "2019/20-1",
+          "codClaseCredit": "B",
+          "codCalifEX": "B",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.9,
+          "codAsignatura": "75.559",
+          "numCalifC": 8,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Liza Deborah Lindley Owen",
+          "codCalifPS": "B",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20161",
+          "descAnyAcademico": "2016/17-1",
+          "descAsignatura": "Idioma moderno I: Inglés",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 7.5,
+          "idpConsultor": "657419",
+          "anySuperacion": "2016/17-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8,
+          "codAsignatura": "75.560",
+          "numCalifC": 8,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Liliana Simón",
+          "codCalifPS": "B",
+          "descClaseCredit": "Obligatoria",
+          "anyAcademico": "20171",
+          "descAnyAcademico": "2017/18-1",
+          "descAsignatura": "Idioma moderno II: Inglés",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 8,
+          "idpConsultor": "889571",
+          "anySuperacion": "2017/18-1",
+          "codClaseCredit": "O",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 6.1,
+          "codAsignatura": "75.557",
+          "numCalifEX": 4.5,
+          "numCalifC": 8,
+          "numCalifFE": 5,
+          "descCalifFA": "Aprobado",
+          "codCalifFE": "C+",
+          "nomConsultor": "Cristina Steegmann Pascual",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20161",
+          "descAnyAcademico": "2016/17-1",
+          "numCalifP": 6,
+          "descAsignatura": "Álgebra",
+          "codCalifP": "C+",
+          "codCalifFA": "A",
+          "codCalifC": "B",
+          "idpConsultor": "229235",
+          "anySuperacion": "2016/17-1",
+          "codClaseCredit": "B",
+          "codCalifEX": "C-",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 6.9,
+          "codAsignatura": "75.556",
+          "numCalifC": 7,
+          "numCalifEX": 6.8,
+          "descCalifFA": "Aprobado",
+          "nomConsultor": "Marta Fernàndez Pons",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20172",
+          "descAnyAcademico": "2017/18-2",
+          "descAsignatura": "Administración y gestión de organizaciones",
+          "codCalifFA": "A",
+          "codCalifC": "B",
+          "idpConsultor": "154306",
+          "anySuperacion": "2017/18-2",
+          "codClaseCredit": "B",
+          "codCalifEX": "C+",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8,
+          "codAsignatura": "75.555",
+          "numCalifFC": 7.5,
+          "numCalifC": 7.9,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Gladys Miriam Utrera Iglesias",
+          "codCalifFC": "B",
+          "codCalifPS": "A",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20191",
+          "descAnyAcademico": "2019/20-1",
+          "numCalifP": 6.8,
+          "descAsignatura": "Prácticas de programación",
+          "codCalifP": "C+",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 9,
+          "idpConsultor": "424247",
+          "anySuperacion": "2019/20-1",
+          "codClaseCredit": "B",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 2
+      },
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "codAsignatura": "75.555",
+          "numCalifFC": 1,
+          "numCalifC": 5,
+          "descCalifFA": "No presentado",
+          "nomConsultor": "Xavier Sáez Pous",
+          "codCalifFC": "D",
+          "codCalifPS": "N",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20162",
+          "descAnyAcademico": "2016/17-2",
+          "numCalifP": 1,
+          "descAsignatura": "Prácticas de programación",
+          "codCalifP": "D",
+          "codCalifFA": "NP",
+          "codCalifC": "C+",
+          "idpConsultor": "406016",
+          "codClaseCredit": "B",
+          "numConvocatoriaActual": 0
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [
+      [
+        { "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 },
+        { "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 2 }
+      ]
+    ]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.6,
+          "codAsignatura": "75.554",
+          "numCalifFC": 7.4,
+          "numCalifC": 8,
+          "descCalifFA": "Notable",
+          "codCalifFE": "",
+          "nomConsultor": "Gema Pérez Fuentes",
+          "codCalifFC": "B",
+          "codCalifPS": "B",
+          "descClaseCredit": "Básica",
+          "anyAcademico": "20161",
+          "descAnyAcademico": "2016/17-1",
+          "numCalifP": 7,
+          "descAsignatura": "Fundamentos de programación",
+          "codCalifP": "B",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 8,
+          "idpConsultor": "416588",
+          "anySuperacion": "2016/17-1",
+          "codClaseCredit": "B",
+          "codCalifEX": "",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  }
+]

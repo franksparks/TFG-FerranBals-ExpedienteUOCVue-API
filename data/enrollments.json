@@ -1,0 +1,222 @@
+{
+  "S": [true],
+  "O": [
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20172",
+        "descAnyAcademic": "2017/18-2",
+        "importMatricula": 727.62,
+        "numConcepte": 1,
+        "dataMatricula": "1517785200000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 4
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20171",
+        "descAnyAcademic": "2017/18-1",
+        "importMatricula": 832.98,
+        "numConcepte": 1,
+        "dataMatricula": "1499724000000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 3
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20162",
+        "descAnyAcademic": "2016/17-2",
+        "importMatricula": 764.82,
+        "numConcepte": 1,
+        "dataMatricula": "1486076400000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 2
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20161",
+        "descAnyAcademic": "2016/17-1",
+        "importMatricula": 702.57,
+        "numConcepte": 1,
+        "dataMatricula": "1467237600000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 1
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20192",
+        "descAnyAcademic": "2019/20-2",
+        "importMatricula": 776.64,
+        "numConcepte": 1,
+        "dataMatricula": "1580684400000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 7
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20201",
+        "descAnyAcademic": "2020/21-1",
+        "importMatricula": 1132.32,
+        "numConcepte": 1,
+        "dataMatricula": "1594677600000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 8
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20182",
+        "descAnyAcademic": "2018/19-2",
+        "importMatricula": 567.14,
+        "numConcepte": 1,
+        "dataMatricula": "1549321200000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 5
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20191",
+        "descAnyAcademic": "2019/20-1",
+        "importMatricula": 517.2,
+        "numConcepte": 1,
+        "dataMatricula": "1562623200000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 6
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20222",
+        "descAnyAcademic": "2022/23-2",
+        "importMatricula": 561.03,
+        "numConcepte": 1,
+        "dataMatricula": "1675810800000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 14
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20202",
+        "descAnyAcademic": "2020/21-2",
+        "importMatricula": 776.64,
+        "numConcepte": 1,
+        "dataMatricula": "1611961200000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 9
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20221",
+        "detallConcepteTipusPerfil": "REC",
+        "descAnyAcademic": "2022/23-1",
+        "importMatricula": 542.83,
+        "descMotiu": "Actualización Decreto de precios",
+        "detallConcepteCodiPerfil": "7",
+        "numConcepte": 2,
+        "dataMatricula": "1656626400000",
+        "numExpedient": 1369293,
+        "indOperacio": "RECAL"
+      },
+      "R": "2",
+      "Y": 13
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20221",
+        "descAnyAcademic": "2022/23-1",
+        "importMatricula": 571.39,
+        "numConcepte": 1,
+        "dataMatricula": "1656540000000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 12
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20212",
+        "descAnyAcademic": "2021/22-2",
+        "importMatricula": 571.39,
+        "numConcepte": 1,
+        "dataMatricula": "1643583600000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 11
+    },
+    {
+      "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=",
+      "P": {
+        "anyAcademic": "20211",
+        "descAnyAcademic": "2021/22-1",
+        "importMatricula": 999.19,
+        "numConcepte": 1,
+        "dataMatricula": "1625176800000",
+        "numExpedient": 1369293,
+        "indOperacio": "ALTA"
+      },
+      "R": "2",
+      "Y": 10
+    }
+  ],
+  "I": [
+    [
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 1 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 2 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 3 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 4 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 5 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 6 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 7 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 8 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 9 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 10 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 11 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 12 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 13 },
+      { "T": "$o80hiMyak0ttJ9x7RuLep5NJnw=", "R": "2", "Y": 14 }
+    ]
+  ]
+}
