@@ -100,6 +100,8 @@ app.route("/subject/").get(function (req, res) {
       code: 400,
       message: "Please specify a subject",
     };
+    res.header("Access-Control-Allow-Origin", "*");
+
     return res.status(400).send(response);
   }
 
@@ -113,6 +115,8 @@ app.route("/subject/").get(function (req, res) {
       code: 404,
       message: "Subject not found",
     };
+    res.header("Access-Control-Allow-Origin", "*");
+
     return res.status(404).send(response);
   }
 
