@@ -15,7 +15,7 @@ const minor = require("./data/minor.json");
 const aliceMarks = require("./data/aliceMarks.json");
 
 //Object with all Alice enrollment
-const enrollments = require("./data/aliceEnrollments.json");
+const aliceEnrollments = require("./data/aliceEnrollments.json");
 const minorEnrollments = require("./data/minorEnrollments.json");
 
 app.get("/", function (req, res) {
