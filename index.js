@@ -15,8 +15,7 @@ const minor = require("./data/minor.json");
 const aliceMarks = require("./data/aliceMarks.json");
 
 //Object with all Alice enrollment
-const aliceEnrollments = require("./data/aliceEnrollments.json");
-const minorEnrollments = require("./data/minorEnrollments.json");
+const enrollments = require("./data/aliceEnrollments.json");
 
 app.get("/", function (req, res) {
   response = {
@@ -66,19 +65,6 @@ app.route("/enrollments").get(function (req, res) {
   res.send(response);
 });
 
-//Returns Alice enrollments
-app.route("/enrollments/minor").get(function (req, res) {
-  response = {
-    error: false,
-    code: 200,
-    message: "Minor enrollments",
-    data: minorEnrollments,
-  };
-
-  res.header("Access-Control-Allow-Origin", "*");
-  res.send(response);
-});
-
 //Returns Alice grades
 app.route("/grades").get(function (req, res) {
   response = {
@@ -100,8 +86,6 @@ app.route("/subject/").get(function (req, res) {
       code: 400,
       message: "Please specify a subject",
     };
-    res.header("Access-Control-Allow-Origin", "*");
-
     return res.status(400).send(response);
   }
 
@@ -115,8 +99,6 @@ app.route("/subject/").get(function (req, res) {
       code: 404,
       message: "Subject not found",
     };
-    res.header("Access-Control-Allow-Origin", "*");
-
     return res.status(404).send(response);
   }
 
