@@ -79,7 +79,7 @@ app.route("/enrollments/alice").get(function (req, res) {
   res.send(response);
 });
 
-//Returns Alice enrollments
+//Returns Minor enrollments
 app.route("/enrollments/minor").get(function (req, res) {
   response = {
     error: false,
