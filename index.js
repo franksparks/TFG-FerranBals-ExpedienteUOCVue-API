@@ -15,7 +15,8 @@ const minor = require("./data/minor.json");
 const aliceMarks = require("./data/aliceMarks.json");
 
 //Object with all Alice enrollment
-const enrollments = require("./data/enrollments.json");
+const enrollments = require("./data/aliceEnrollments.json");
+const minorEnrollments = require("./data/minorEnrollments.json");
 
 app.get("/", function (req, res) {
   response = {
@@ -58,7 +59,20 @@ app.route("/enrollments").get(function (req, res) {
     error: false,
     code: 200,
     message: "Alice enrollments",
-    data: enrollments,
+    data: aliceEnrollments,
+  };
+
+  res.header("Access-Control-Allow-Origin", "*");
+  res.send(response);
+});
+
+//Returns Alice enrollments
+app.route("/enrollments/minor").get(function (req, res) {
+  response = {
+    error: false,
+    code: 200,
+    message: "Minor enrollments",
+    data: minorEnrollments,
   };
 
   res.header("Access-Control-Allow-Origin", "*");

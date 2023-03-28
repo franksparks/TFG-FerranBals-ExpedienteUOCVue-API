@@ -1066,5 +1066,137 @@
       }
     ],
     "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.2,
+          "codAsignatura": "76.554",
+          "numCalifC": 8.2,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Consultor Programación web avanzada",
+          "descClaseCredit": "Optativa",
+          "anyAcademico": "20212",
+          "descAnyAcademico": "2021/22-2",
+          "descAsignatura": "Programación web avanzada",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "937019",
+          "anySuperacion": "2021/22-2",
+          "codClaseCredit": "P",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 9.2,
+          "codAsignatura": "76.513",
+          "numCalifFC": 9,
+          "numCalifC": 9,
+          "descCalifFA": "Sobresaliente",
+          "codCalifFE": "",
+          "nomConsultor": "Consultor Programación web",
+          "codCalifFC": "A",
+          "codCalifPS": "A",
+          "descClaseCredit": "Optativa",
+          "anyAcademico": "20211",
+          "descAnyAcademico": "2021/22-1",
+          "numCalifP": 9,
+          "descAsignatura": "Programación web",
+          "codCalifP": "A",
+          "codCalifFA": "EX",
+          "codCalifC": "A",
+          "numCalifPS": 9.5,
+          "idpConsultor": "403988",
+          "anySuperacion": "2021/22-1",
+          "codClaseCredit": "P",
+          "codCalifEX": "",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 8.4,
+          "codAsignatura": "76.510",
+          "numCalifFC": 8.6,
+          "numCalifC": 8,
+          "descCalifFA": "Notable",
+          "codCalifFE": "",
+          "nomConsultor": "Consultor Lenguajes y estándares web",
+          "codCalifFC": "B",
+          "codCalifPS": "B",
+          "descClaseCredit": "Optativa",
+          "anyAcademico": "20202",
+          "descAnyAcademico": "2020/21-2",
+          "numCalifP": 9,
+          "descAsignatura": "Lenguajes y estándares web",
+          "codCalifP": "A",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "numCalifPS": 8,
+          "idpConsultor": "229106",
+          "anySuperacion": "2020/21-2",
+          "codClaseCredit": "P",
+          "codCalifEX": "",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
+  },
+  {
+    "S": [true],
+    "O": [
+      {
+        "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=",
+        "P": {
+          "numCalifFA": 7.3,
+          "codAsignatura": "76.511",
+          "numCalifFC": 7.3,
+          "numCalifC": 7.8,
+          "descCalifFA": "Notable",
+          "nomConsultor": "Consultor Diseño gráfico",
+          "codCalifFC": "B",
+          "descClaseCredit": "Optativa",
+          "anyAcademico": "20202",
+          "descAnyAcademico": "2020/21-2",
+          "numCalifP": 6,
+          "descAsignatura": "Diseño gráfico",
+          "codCalifP": "C+",
+          "codCalifFA": "NO",
+          "codCalifC": "B",
+          "idpConsultor": "675157",
+          "anySuperacion": "2020/21-2",
+          "codClaseCredit": "P",
+          "numConvocatoriaActual": 1
+        },
+        "R": "2",
+        "Y": 1
+      }
+    ],
+    "I": [[{ "T": "6n0oQ7eyibwkJRl48sqD9yMWtsw=", "R": "2", "Y": 1 }]]
   }
 ]
