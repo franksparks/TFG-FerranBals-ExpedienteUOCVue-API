@@ -21,7 +21,7 @@ const bobEnrollments = require("./data/bobEnrollments.json");
 
 app.get("/", function (req, res) {
   response = {
-    error: true,
+    error: false,
     code: 200,
     message: "API REST working.",
   };
