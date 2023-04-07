@@ -4,6 +4,8 @@ const bodyParser = require("body-parser");
 // Initialize Express
 const app = express();
 
+const port = 5001;
+
 //Hardcoded documents references
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -155,8 +157,8 @@ app.route("/file/bob").get(function (req, res) {
   res.send(response);
 });
 // Initialize server
-app.listen(5000, () => {
-  console.log("Running on port 5000.");
+app.listen(port, () => {
+  console.log("Running on port: " + port);
 });
 
 // Export the Express API
