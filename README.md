@@ -15,7 +15,7 @@ npm install
 ### API: Inicializando en local
 
 ```sh
-npm index.js
+node index.js
 ```
 
 Con esto, la API está levantado y lista para recibir peticiones.
