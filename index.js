@@ -7,43 +7,6 @@ require("dotenv").config();
 // Initialize Express
 const app = express();
 
-//mongodb
-const mongoose = require("mongoose");
-const uri =
-  "mongodb+srv://" +
-  process.env.DB_USER +
-  ":" +
-  process.env.DB_PASS +
-  "@cluster0.mrtrjop.mongodb.net/localData?retryWrites=true&w=majority";
-
-mongoose
-  .connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log("Conexión exitosa a la base de datos");
-  })
-  .catch((error) => {
-    console.log("Error al conectarse a la base de datos - ", error);
-  });
-
-const port = 5001;
-
-const testSchema = new mongoose.Schema({
-  properties: {
-    S: {
-      type: Boolean,
-    },
-    O: {
-      type: Object,
-    },
-    I: {
-      type: Object,
-    },
-  },
-});
-
 //Hardcoded documents references
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
