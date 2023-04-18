@@ -1,12 +1,20 @@
 // Add Express
 const express = require("express");
 const bodyParser = require("body-parser");
+
+require("dotenv").config();
+
 // Initialize Express
 const app = express();
 
 //mongodb
 const mongoose = require("mongoose");
-const uri = import.meta.env.MONGODB_URI;
+const uri =
+  "mongodb+srv://" +
+  process.env.DB_USER +
+  ":" +
+  process.env.DB_PASS +
+  "@cluster0.mrtrjop.mongodb.net/localData?retryWrites=true&w=majority";
 
 mongoose
   .connect(uri, {
@@ -17,7 +25,7 @@ mongoose
     console.log("Conexión exitosa a la base de datos");
   })
   .catch((error) => {
-    console.log("Error al conectarse a la base de datos", error);
+    console.log("Error al conectarse a la base de datos - ", error);
   });
 
 const port = 5001;
