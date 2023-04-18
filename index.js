@@ -41,12 +41,6 @@ const testSchema = new mongoose.Schema({
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-const minor = require("./data/minor.json");
-
-//Object with all Alice grades
-
-//Object with all Alice enrollment
-
 app.get("/", function (req, res) {
   response = {
     error: false,
