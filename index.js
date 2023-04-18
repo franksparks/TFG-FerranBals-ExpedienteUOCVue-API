@@ -6,8 +6,7 @@ const app = express();
 
 //mongodb
 const mongoose = require("mongoose");
-const uri =
-  "mongodb+srv://fbals:fbals@cluster0.mrtrjop.mongodb.net/localData?retryWrites=true&w=majority";
+const uri = import.meta.env.MONGODB_URI;
 
 mongoose
   .connect(uri, {
