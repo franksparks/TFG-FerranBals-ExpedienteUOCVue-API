@@ -4,6 +4,8 @@ const bodyParser = require("body-parser");
 
 require("dotenv").config();
 
+console.log("TEST MESSAGE");
+
 // Initialize Express
 const app = express();
 
