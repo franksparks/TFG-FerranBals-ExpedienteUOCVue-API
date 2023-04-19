@@ -10,24 +10,25 @@ console.log("TEST MESSAGE");
 const app = express();
 
 //mongodb
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 const uri = process.env.MONGODB_URI;
 const port = 5001;
 
-/*
-mongoose
-  .connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log("Conexión exitosa a la base de datos");
-  })
-  .catch((error) => {
-    console.log("Error al conectarse a la base de datos - ", error);
-  });
-
-
+try {
+  mongoose
+    .connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    })
+    .then(() => {
+      console.log("Conexión exitosa a la base de datos");
+    })
+    .catch((error) => {
+      console.log("Error al conectarse a la base de datos - ", error);
+    });
+} catch (error) {
+  console.error(error);
+}
 
 const testSchema = new mongoose.Schema({
   properties: {
@@ -42,7 +43,6 @@ const testSchema = new mongoose.Schema({
     },
   },
 });
-*/
 
 //Hardcoded documents references
 app.use(bodyParser.urlencoded({ extended: false }));
