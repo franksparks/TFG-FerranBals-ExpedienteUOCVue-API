@@ -10,7 +10,7 @@ console.log("TEST MESSAGE");
 const app = express();
 
 //mongodb
-const mongoose = require("mongoose");
+//const mongoose = require("mongoose");
 const uri = process.env.MONGODB_URI;
 const port = 5001;
 
