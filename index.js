@@ -9,12 +9,7 @@ const app = express();
 
 //mongodb
 const mongoose = require("mongoose");
-const uri =
-  "mongodb+srv://" +
-  process.env.DB_USER +
-  ":" +
-  process.env.DB_PASS +
-  "@cluster0.mrtrjop.mongodb.net/localData?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI;
 
 mongoose
   .connect(uri, {
