@@ -51,7 +51,7 @@ app.get("/", function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "API REST working: " + process.env.MONGODB_URI + "success",
+    message: "API REST working: " + process.env.MONGODB_URI,
   };
   res.send(response);
 });
@@ -287,7 +287,7 @@ app.get("/subject/", async (req, res) => {
       error: false,
       code: 200,
       message: "subject",
-      subject: subjects, // Add the document found to the response
+      subject: subjects[0], // Add the document found to the response
     };
     console.log("Conectado y obtenida info");
     res.header("Access-Control-Allow-Origin", "*");
