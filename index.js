@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 
 console.log("TEST MESSAGE");
-//import mongoose from "mongoose";
+import { connect, connection } from "mongoose";
 
 // Initialize Express
 const app = express();
