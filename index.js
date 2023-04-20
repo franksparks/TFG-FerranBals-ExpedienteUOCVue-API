@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 
 console.log("TEST MESSAGE");
+import mongoose from "mongoose";
 
 // Initialize Express
 const app = express();
@@ -15,7 +16,6 @@ const uri = process.env.MONGODB_URI;
 const port = 5001;
 
 try {
-  const mongoose = require("mongoose");
   mongoose
     .connect(uri, {
       useNewUrlParser: true,
