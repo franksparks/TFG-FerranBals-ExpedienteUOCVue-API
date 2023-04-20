@@ -13,7 +13,6 @@ const app = express();
 const uri = process.env.MONGODB_URI;
 const port = 5001;
 
-/*
 try {
   mongoose
     .connect(uri, {
@@ -43,7 +42,6 @@ const testSchema = new mongoose.Schema({
     },
   },
 });
-*/
 
 //Hardcoded documents references
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -53,7 +51,7 @@ app.get("/", function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "API REST working: " + process.env.MONGODB_URI,
+    message: "API REST working: " + process.env.MONGODB_URI + "success",
   };
   res.send(response);
 });
