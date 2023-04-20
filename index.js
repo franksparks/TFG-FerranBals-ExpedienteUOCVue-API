@@ -86,7 +86,7 @@ app.get("/file/alice", async (req, res) => {
 
 //Alice - Minor File
 app.get("/file/minor", async (req, res) => {
-  // Add Mongoose model for "alice" collection
+  // Add Mongoose model for "minor" collection
 
   const Test = mongoose.model("minor", testSchema, "minor");
   try {
@@ -114,7 +114,7 @@ app.get("/file/minor", async (req, res) => {
 
 //Bob File
 app.get("/file/bob", async (req, res) => {
-  // Add Mongoose model for "alice" collection
+  // Add Mongoose model for "bob" collection
 
   const Test = mongoose.model("bob", testSchema, "bob");
   try {
@@ -142,7 +142,7 @@ app.get("/file/bob", async (req, res) => {
 
 //Returns Alice enrollments
 app.get("/enrollments/alice", async (req, res) => {
-  // Add Mongoose model for "alice" collection
+  // Add Mongoose model for "aliceEnrollments" collection
 
   const Test = mongoose.model(
     "aliceEnrollments",
@@ -177,7 +177,7 @@ app.get("/enrollments/alice", async (req, res) => {
 
 //Returns Minor enrollments
 app.get("/enrollments/minor", async (req, res) => {
-  // Add Mongoose model for "alice" collection
+  // Add Mongoose model for "minorEnrollments" collection
 
   const Test = mongoose.model(
     "minorEnrollments",
@@ -212,7 +212,7 @@ app.get("/enrollments/minor", async (req, res) => {
 
 //Returns Bob enrollments
 app.get("/enrollments/bob", async (req, res) => {
-  // Add Mongoose model for "alice" collection
+  // Add Mongoose model for "bobEnrollments" collection
 
   const Test = mongoose.model("bobEnrollments", testSchema, "bobEnrollments");
   try {
@@ -243,7 +243,7 @@ app.get("/enrollments/bob", async (req, res) => {
 
 //Returns Alice grades
 app.get("/grades", async (req, res) => {
-  // Add Mongoose model for "alice" collection
+  // Add Mongoose model for "aliceMarks" collection
 
   const Test = mongoose.model("aliceMarks", testSchema, "aliceMarks");
   try {
@@ -273,9 +273,8 @@ app.get("/grades", async (req, res) => {
 });
 
 //Return the convos of a particular subject
-
 app.get("/subject/", async (req, res) => {
-  // Add Mongoose model for "alice" collection
+  // Add Mongoose model for "aliceMarks" collection
 
   const Test = mongoose.model("aliceMarks", testSchema, "aliceMarks");
   try {
@@ -290,7 +289,7 @@ app.get("/subject/", async (req, res) => {
     response = {
       error: false,
       code: 200,
-      message: "parko - File",
+      message: "subject - convos",
       asignatura: subjectConvos, // Add the document found to the response
     };
     console.log("Conectado y obtenida info");
@@ -309,6 +308,11 @@ app.get("/subject/", async (req, res) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
+});
+
+// Initialize server
+app.listen(port, () => {
+  console.log("Running on port: " + port);
 });
 
 // Export the Express API
