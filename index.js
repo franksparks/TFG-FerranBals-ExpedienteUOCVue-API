@@ -15,6 +15,7 @@ const app = express();
 const uri = process.env.MONGODB_URI;
 const port = 5001;
 
+/*
 try {
   mongoose
     .connect(uri, {
@@ -44,6 +45,7 @@ const testSchema = new mongoose.Schema({
     },
   },
 });
+*/
 
 //Hardcoded documents references
 app.use(bodyParser.urlencoded({ extended: false }));
