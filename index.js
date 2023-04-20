@@ -55,8 +55,7 @@ app.get("/", function (req, res) {
   response = {
     error: false,
     code: 200,
-    message:
-      "API REST working: " + process.env.MONGODB_URI + "------" + mongoose,
+    message: "API REST working: " + process.env.MONGODB_URI,
   };
   res.send(response);
 });
