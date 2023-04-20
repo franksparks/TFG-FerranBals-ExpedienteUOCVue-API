@@ -272,25 +272,22 @@ app.get("/grades", async (req, res) => {
   }
 });
 
-//Return the convos of a particular subject
+//Returns a particular subject
 app.get("/subject/", async (req, res) => {
   // Add Mongoose model for "aliceMarks" collection
 
   const Test = mongoose.model("aliceMarks", testSchema, "aliceMarks");
   try {
-    const subjects = await Test.find();
-
-    const subject = subjects.find(
-      (obj) => obj.O[0].P.codAsignatura === req.query.codAsignatura
-    );
-
-    const subjectConvos = subject.O.map((item) => item.P);
+    const subjects = await Test.find({
+      "O.P.codAsignatura": req.query.codAsignatura,
+    });
+    console.log(subjects);
 
     response = {
       error: false,
       code: 200,
-      message: "subject - convos",
-      asignatura: subjectConvos, // Add the document found to the response
+      message: "subject",
+      subject: subjects, // Add the document found to the response
     };
     console.log("Conectado y obtenida info");
     res.header("Access-Control-Allow-Origin", "*");
