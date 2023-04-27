@@ -252,7 +252,6 @@ app.get("/subject/", async (req, res) => {
     const subjects = await Test.find({
       "O.P.codAsignatura": req.query.codAsignatura,
     });
-    console.log(subjects);
 
     response = {
       error: false,
