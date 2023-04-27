@@ -50,7 +50,7 @@ app.get("/", function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "API REST working: ",
+    message: "API REST working",
   };
   res.send(response);
 });
