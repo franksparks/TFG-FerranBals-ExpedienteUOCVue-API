@@ -1,18 +1,16 @@
-// Add Express
 const express = require("express");
 const bodyParser = require("body-parser");
-
-require("dotenv").config();
-
-console.log("TEST MESSAGE");
 const mongoose = require("mongoose");
+require("dotenv").config();
 
 // Initialize Express
 const app = express();
-
+// Environment variable
 const uri = process.env.MONGODB_URI;
+// Port
 const port = 5001;
 
+// Connection to database
 try {
   mongoose
     .connect(uri, {
@@ -20,15 +18,16 @@ try {
       useUnifiedTopology: true,
     })
     .then(() => {
-      console.log("Conexión exitosa a la base de datos");
+      console.log("Successful connection to database");
     })
     .catch((error) => {
-      console.log("Error al conectarse a la base de datos - ", error);
+      console.log("Error connecting to database - ", error);
     });
 } catch (error) {
   console.error(error);
 }
 
+// Mongoose schema
 const testSchema = new mongoose.Schema({
   properties: {
     S: {
@@ -43,23 +42,21 @@ const testSchema = new mongoose.Schema({
   },
 });
 
-//Hardcoded documents references
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// API main page
 app.get("/", function (req, res) {
   response = {
     error: false,
     code: 200,
-    message: "API REST working: " + process.env.MONGODB_URI,
+    message: "API REST working: ",
   };
   res.send(response);
 });
 
-//Alice File
+// Alice - File
 app.get("/file/alice", async (req, res) => {
-  // Add Mongoose model for "alice" collection
-
   const Test = mongoose.model("alice", testSchema, "alice");
   try {
     const testDocs = await Test.find(); // Find all documents in "alice" collection
@@ -69,116 +66,105 @@ app.get("/file/alice", async (req, res) => {
       message: "Alice - File",
       data: testDocs[0], // Add the document found to the response
     };
-    console.log("Conectado y obtenida info");
+    console.log("Connected, data granted");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log("Error al obtener documentos de la colección alice", error);
+    console.log("Error getting data from alice collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección alice",
+      message: "Error getting data from alice collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
 });
 
-//Alice - Minor File
+//Alice minor - File
 app.get("/file/minor", async (req, res) => {
-  // Add Mongoose model for "minor" collection
-
   const Test = mongoose.model("minor", testSchema, "minor");
   try {
-    const testDocs = await Test.find(); // Find all documents in "alice" collection
+    const testDocs = await Test.find(); // Find all documents in "minor" collection
     response = {
       error: false,
       code: 200,
       message: "Minor - File",
       data: testDocs[0], // Add the document found to the response
     };
-    console.log("Conectado y obtenida info");
+    console.log("Connected, data granted");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log("Error al obtener documentos de la colección minor", error);
+    console.log("Error getting data from minor collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección minor",
+      message: "Error getting data from minor collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
 });
 
-//Bob File
+//Bob - File
 app.get("/file/bob", async (req, res) => {
-  // Add Mongoose model for "bob" collection
-
   const Test = mongoose.model("bob", testSchema, "bob");
   try {
     const testDocs = await Test.find(); // Find all documents in "bob" collection
     response = {
       error: false,
       code: 200,
-      message: "API REST working.",
+      message: "Bob - File",
       data: testDocs[0], // Add the document found to the response
     };
-    console.log("Conectado y obtenida info");
+    console.log("Connected, data granted");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log("Error al obtener documentos de la colección bob", error);
+    console.log("Error getting data from bob collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección bob",
+      message: "Error getting data from bob collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
 });
 
-//Returns Alice enrollments
+// Alice - Enrollments
 app.get("/enrollments/alice", async (req, res) => {
-  // Add Mongoose model for "aliceEnrollments" collection
-
   const Test = mongoose.model(
     "aliceEnrollments",
     testSchema,
     "aliceEnrollments"
   );
   try {
-    const testDocs = await Test.find(); // Find all documents in "alice" collection
+    const testDocs = await Test.find(); // Find all documents in "aliceEnrollments" collection
     response = {
       error: false,
       code: 200,
-      message: "Alice - File",
+      message: "Alice - Enrollments",
       data: testDocs[0], // Add the document found to the response
     };
-    console.log("Conectado y obtenida info");
+    console.log("Connected, data granted");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log(
-      "Error al obtener documentos de la colección aliceEnrollments",
-      error
-    );
+    console.log("Error getting data from aliceEnrollments collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección aliceEnrollments",
+      message: "Error getting data from aliceEnrollments collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
 });
 
-//Returns Minor enrollments
+// Alice minor - Enrollments
 app.get("/enrollments/minor", async (req, res) => {
-  // Add Mongoose model for "minorEnrollments" collection
-
   const Test = mongoose.model(
     "minorEnrollments",
     testSchema,
@@ -189,93 +175,78 @@ app.get("/enrollments/minor", async (req, res) => {
     response = {
       error: false,
       code: 200,
-      message: "Alice - File",
+      message: "Alice minor - enrollments",
       data: testDocs[0], // Add the document found to the response
     };
-    console.log("Conectado y obtenida info");
+    console.log("Connected, data granted");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log(
-      "Error al obtener documentos de la colección minorEnrollments",
-      error
-    );
+    console.log("Error getting data from minorEnrollments collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección minorEnrollments",
+      message: "Error getting data from minorEnrollments collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
 });
 
-//Returns Bob enrollments
+// Bob - Enrollments
 app.get("/enrollments/bob", async (req, res) => {
-  // Add Mongoose model for "bobEnrollments" collection
-
   const Test = mongoose.model("bobEnrollments", testSchema, "bobEnrollments");
   try {
     const testDocs = await Test.find(); // Find all documents in "bobEnrollments" collection
     response = {
       error: false,
       code: 200,
-      message: "Alice - File",
+      message: "Bob - Enrollments",
       data: testDocs[0], // Add the document found to the response
     };
-    console.log("Conectado y obtenida info");
+    console.log("Connected, data granted");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log(
-      "Error al obtener documentos de la colección bobEnrollments",
-      error
-    );
+    console.log("Error getting data from bobEnrollments collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección bobEnrollments",
+      message: "Error getting data from bobEnrollments collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
 });
 
-//Returns Alice grades
+// Alice - Grades
 app.get("/grades", async (req, res) => {
-  // Add Mongoose model for "aliceMarks" collection
-
   const Test = mongoose.model("aliceMarks", testSchema, "aliceMarks");
   try {
     const testDocs = await Test.find({}); // Find all documents in "aliceMarks" collection
     response = {
       error: false,
       code: 200,
-      message: "Alice - File",
+      message: "Alice - Grades",
       data: testDocs, // Add the document found to the response
     };
-    console.log("Conectado y obtenida info");
+    console.log("Connected, data granted");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log(
-      "Error al obtener documentos de la colección aliceMarks",
-      error
-    );
+    console.log("Error getting data from aliceMarks collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección aliceMarks",
+      message: "Error getting data from aliceMarks collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
   }
 });
 
-//Returns a particular subject
+// Returns a particular subject
 app.get("/subject/", async (req, res) => {
-  // Add Mongoose model for "aliceMarks" collection
-
   const Test = mongoose.model("aliceMarks", testSchema, "aliceMarks");
   try {
     const subjects = await Test.find({
@@ -286,21 +257,18 @@ app.get("/subject/", async (req, res) => {
     response = {
       error: false,
       code: 200,
-      message: "subject",
+      message: "Subject",
       subject: subjects[0], // Add the document found to the response
     };
     console.log("Conectado y obtenida info");
     res.header("Access-Control-Allow-Origin", "*");
     res.send(response);
   } catch (error) {
-    console.log(
-      "Error al obtener documentos de la colección aliceMarks",
-      error
-    );
+    console.log("Error getting data from aliceMarks collection", error);
     response = {
       error: true,
       code: 500,
-      message: "Error al obtener documentos de la colección aliceMarks",
+      message: "Error getting data from aliceMarks collection",
     };
     res.header("Access-Control-Allow-Origin", "*");
     res.status(500).send(response);
