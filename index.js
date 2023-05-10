@@ -219,32 +219,6 @@ app.get("/enrollments/bob", async (req, res) => {
   }
 });
 
-// Alice - Grades
-app.get("/grades", async (req, res) => {
-  const Test = mongoose.model("aliceMarks", testSchema, "aliceMarks");
-  try {
-    const testDocs = await Test.find({}); // Find all documents in "aliceMarks" collection
-    response = {
-      error: false,
-      code: 200,
-      message: "Alice - Grades",
-      data: testDocs, // Add the document found to the response
-    };
-    console.log("Connected, data granted");
-    res.header("Access-Control-Allow-Origin", "*");
-    res.send(response);
-  } catch (error) {
-    console.log("Error getting data from aliceMarks collection", error);
-    response = {
-      error: true,
-      code: 500,
-      message: "Error getting data from aliceMarks collection",
-    };
-    res.header("Access-Control-Allow-Origin", "*");
-    res.status(500).send(response);
-  }
-});
-
 // Returns a particular subject
 app.get("/subject/", async (req, res) => {
   const Test = mongoose.model("aliceMarks", testSchema, "aliceMarks");
